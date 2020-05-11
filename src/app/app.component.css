@@ -1,0 +1,50 @@
+
+.header {
+  width: 100%;
+  float: left;
+  background: #171d63;
+  height: 40px;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+}
+
+.header ul li {
+  float: left;
+  list-style-type: none;
+  min-width: 100px;
+  line-height: 40px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.header ul li:first-child{
+  min-width: 150px;
+
+  text-align: left;
+}
+.header ul li a{
+  color: #ffffff;
+}
+
+.main-container {
+  width: 100%;
+  float: left;
+  margin: 20px auto;
+}
+
+.footer {
+  width: 100%;
+  float: left;
+  background: #959595;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer a {
+  line-height: 40px;
+  color: white;
+}
